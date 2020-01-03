@@ -29,4 +29,5 @@ module.exports.connect = uri => {
   require("./yearlyOut");
   require("./relationship");
   require("./events");
+  require("./smsGroup");
 };
