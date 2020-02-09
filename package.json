@@ -1,7 +1,7 @@
 {
   "name": "pb_admin",
   "version": "1.0.0",
-  "description": "pesabase admin backend",
+  "description": "House of Destiny Backend",
   "main": "app.js",
   "engines": {
     "npm": "6.12.1",
