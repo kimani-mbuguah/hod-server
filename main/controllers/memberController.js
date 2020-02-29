@@ -325,6 +325,7 @@ exports.multipleSmSRecipients = (req, res) => {
 		sms
 			.send({
 				to: smsRecipients[recipient],
+				from:"HOD-CHURCH",
 				message: message
 			})
 			.then(response => {
@@ -397,6 +398,7 @@ exports.sendGroupSMS = (req, res) => {
 				sms
 					.send({
 						to: members[member].phoneNumber,
+						from:"HOD-CHURCH",
 						message: message
 					})
 					.then(response => {
