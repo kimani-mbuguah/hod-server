@@ -5,6 +5,7 @@ module.exports.connect = uri => {
   mongoose.set("useCreateIndex", true);
   mongoose.set("useNewUrlParser", true);
   mongoose.set("useFindAndModify", false);
+  mongoose.set("useUnifiedTopology", true );
   mongoose
     .connect(uri)
     .then(() => console.log(chalk.magenta("Success! Connected to MongoDB")))
