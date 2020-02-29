@@ -2,7 +2,7 @@ const validations = require("../validation/model-validations")
 module.exports = {
   // DB
   dbUri:
-    "mongodb+srv://kim:127.0.0.1@cluster0-vjurh.mongodb.net/hod?retryWrites=true&w=majority",
+    "mongodb+srv://kim:127.0.0.1@Kim@hod-mngt-vaqrg.gcp.mongodb.net/test?retryWrites=true&w=majority",
 
   // jsonwebtoken secret
   jwtSecret:
@@ -11,6 +11,7 @@ module.exports = {
   // Model validations
   validations: validations,
 
-  //sms service url
-  smsServiceUrl: "http://34.83.202.130:8181/v1/text/send"
+  //sms config
+  apiKey: "274b7303b3ef866a04e8d792ec8dae4ed25692092f4b1650ab4958f2ec379c32",
+  username:"hod-mngt"
 }

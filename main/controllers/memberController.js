@@ -4,10 +4,10 @@ const Member = require("mongoose").model("Member");
 const Relationship = require("mongoose").model("Relationship");
 const SmsGroup = require("mongoose").model("SmsGroup");
 const { validations } = require("../../config");
-
+const config = require("../../config/index");
 const africasTalking = new AfricasTalking({
-	username: "hod-mngt",
-	apiKey: "274b7303b3ef866a04e8d792ec8dae4ed25692092f4b1650ab4958f2ec379c32"
+	username: config.username,
+	apiKey: config.apiKey
 });
 
 
