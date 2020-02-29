@@ -428,6 +428,7 @@ exports.sendCustomGroupSMS = (req, res) => {
 			sms
 				.send({
 					to: members[i].phoneNumber,
+					from:"HOD-CHURCH",
 					message: message
 				})
 				.then(response => {
