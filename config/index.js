@@ -2,7 +2,7 @@ const validations = require("../validation/model-validations")
 module.exports = {
   // DB
   dbUri:
-    "mongodb+srv://kim:127.0.0.1@Kim@hod-mngt-vaqrg.gcp.mongodb.net/test?retryWrites=true&w=majority",
+    "mongodb+srv://kim:127.0.0.1@Kim@hod-mngt-vaqrg.gcp.mongodb.net/hod?retryWrites=true&w=majority",
 
   // jsonwebtoken secret
   jwtSecret:
